@@ -1,0 +1,278 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body 
+{
+    background-color: #B6B7BC;
+    padding-top:20px;
+    padding-bottom: 20px;
+    font-family:Tahoma;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+
+.HomeTable {
+    background-color:white;
+}
+.HeaderBanner {
+    /*background-color: #2B3990;*/
+    background-color: #36aae7;
+    height:10%;
+}
+
+.HeaderText
+{
+    font-size:25px;
+    color:white;
+    padding-left:20px;
+}
+
+.FooterText
+{
+    font-size:10px;
+    color:white;
+   text-align:right;
+   background-color: #36aae7;
+}
+.AnlyticsCircle {
+    background-image: url("../Content/Images/2.png");
+    background-repeat:no-repeat;
+    height:256px;
+    width:256px;    
+}
+
+.HomeMenu {
+    font-family:Tahoma;
+    color:white;
+    font-weight:bold;
+}
+
+.AryaCircle {
+    background-image: url("../Content/Images/3.png");
+    background-repeat:no-repeat;
+    height:256px;
+    width:256px;    
+}
+
+.ReportsCircle {
+    background-image: url("../Content/Images/4.png");
+    background-repeat:no-repeat;
+    height:256px;
+    width:256px;    
+}
+
+
+
+.LoginDiv {
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 30px;
+    border:0px solid #E6E6E6;
+    background-color:#36AAE7;
+    
+}
+
+.LoginText {
+    font-family:Tahoma;
+    font-size:12px;
+    color:white;
+}
+
+.PageHeadBanner
+{
+background: #ffb76b;
+background: -moz-linear-gradient(top, #ffb76b 0%, #ffa73d 50%, #ff7c00 51%, #ff7f04 100%);
+background: -webkit-linear-gradient(top, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
+background: linear-gradient(to bottom, #ffb76b 0%,#ffa73d 50%,#ff7c00 51%,#ff7f04 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', endColorstr='#ff7f04',GradientType=0 );
+height:30px;
+font-family:Tahoma;
+color:black;
+font-weight:bold;
+    
+}
+
+.BorrowerTable {
+    background-color:#FFFAFA;
+    border: 1px solid white;    
+}
+
+.LoanHeader {
+    background-color:#ff976a;
+    height:25px;
+        font-size:12px;
+    color:black;
+    padding-left:3px;
+    font-weight:bold;
+}
+.BorrowerDetails {
+    background-color:#AFEEEE;
+    height:25px;
+    font-size:12px;
+    color:black;
+    padding-left:3px;
+    font-weight:bold;
+}
+.td1 {
+    background-color:#DCDCDC;
+    font-family:Tahoma;
+    border-bottom: solid 1px #E6E6FA;
+    padding-left:3px;
+    height:20px;
+    font-size:12px;
+    color:black;
+}
+.td2 {
+    background-color:#FFFAF0;
+    font-family:Tahoma;
+    border-bottom: solid 1px #E6E6FA;
+    padding-left:3px;
+    font-weight:normal;
+    height:20px;
+    font-size:12px;
+    color:black;
+}
+
+.text {
+    border:1px solid gray;
+}
+
+.btnPanel
+{
+     background-color:#AFEEEE;
+}
+
+.AnalyticsResultYellow {
+    background-color: #fcf6db;
+    border: 1px solid #e5e0c6;
+}
+
+.AnalyticsResultRed {
+         background-color: #f5e8e8;
+    border: 1px solid #e8c6c7;
+}
+
+.AnalyticsResultGreen {
+        background-color: #e7f6ec;
+    border: 1px solid #c3e8d1;
+
+}
+
+.btn {
+ border:1px solid #7eb9d0; -webkit-border-radius: 3px; -moz-border-radius: 3px;border-radius: 3px;font-size:12px;font-family:arial, helvetica, sans-serif; 
+ padding: 5px 5px 5px 5px; text-decoration:none; display:inline-block;text-shadow: -1px -1px 0 rgba(0,0,0,0.3);font-weight:bold; color: #FFFFFF;
+ background-color: #a7cfdf; background-image: -webkit-gradient(linear, left top, left bottom, from(#a7cfdf), to(#23538a));
+ background-image: -webkit-linear-gradient(top, #a7cfdf, #23538a);
+ background-image: -moz-linear-gradient(top, #a7cfdf, #23538a);
+ background-image: -ms-linear-gradient(top, #a7cfdf, #23538a);
+ background-image: -o-linear-gradient(top, #a7cfdf, #23538a);
+ background-image: linear-gradient(to bottom, #a7cfdf, #23538a);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#a7cfdf, endColorstr=#23538a);
+}
+
+.btn:hover {
+border:1px solid #5ca6c4;
+ background-color: #82bbd1; background-image: -webkit-gradient(linear, left top, left bottom, from(#82bbd1), to(#193b61));
+ background-image: -webkit-linear-gradient(top, #82bbd1, #193b61);
+ background-image: -moz-linear-gradient(top, #82bbd1, #193b61);
+ background-image: -ms-linear-gradient(top, #82bbd1, #193b61);
+ background-image: -o-linear-gradient(top, #82bbd1, #193b61);
+ background-image: linear-gradient(to bottom, #82bbd1, #193b61);filter:progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#82bbd1, endColorstr=#193b61);
+}
+
+.mydatagrid
+{
+    width: 100%;
+    border: solid 1px #193b61;
+    min-width: 100%;
+}
+.header
+{
+    background-color: #646464;
+    font-family: Tahoma;
+    color: White;
+    border: none 0px transparent;
+    height: 25px;
+    text-align: center;
+    font-size: 13px;
+}
+.rows
+{
+    background-color: #fff;
+    font-family: Tahoma;
+    font-size: 11px;
+    color: #000;
+    min-height: 25px;
+    text-align: left;
+    border: none 0px transparent;
+}
+.rows:hover
+{
+    background-color: #E6E6FA;
+    font-family: Tahoma;
+    color: black;
+    text-align: left;
+    font-size: 11px;
+}
+.selectedrow
+{
+    background-color: #ff8000;
+    font-family: Arial;
+    color: #fff;
+    font-weight: bold;
+    text-align: left;
+}
+.mydatagrid a /** FOR THE PAGING ICONS  **/
+{
+    background-color: Transparent;
+    padding: 5px 5px 5px 5px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+.mydatagrid a:hover /** FOR THE PAGING ICONS  HOVER STYLES**/
+{
+    background-color: #000;
+    color: #fff;
+}
+.mydatagrid span /** FOR THE PAGING ICONS CURRENT PAGE INDICATOR **/
+{
+    background-color: #c9c9c9;
+    color: #000;
+    padding: 5px 5px 5px 5px;
+}
+.pager
+{
+    background-color: #646464;
+    font-family: Arial;
+    color: White;
+    height: 30px;
+    text-align: left;
+}
+.mydatagrid td
+{
+    padding: 5px;
+}
+.mydatagrid th
+{
+    padding: 5px;
+}
